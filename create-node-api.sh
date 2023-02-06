@@ -6,6 +6,7 @@ const User = require("../models/userModel");
 const AppError = require("../utils/appError");
 
 const createToken = id => {
+
   
   return jwt.sign(
     {
